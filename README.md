@@ -26,13 +26,3 @@ Get-Content ./vscode/profiles/-68751bf5/extensions.txt |
 `vscode/profiles/profiles.json` maps profile directory IDs to names; it is an inventory, not a file to copy over VS Code's storage database. Create profiles in VS Code and copy their settings to the new profile locations.
 
 Editor settings reference JetBrainsMono NF and the selected themes/extensions. Desktop settings may need local path, monitor, and application adjustments on another machine.
-
-## Privacy
-
-Authentication files, tokens, private keys, chat/session history, application databases, logs, caches, and extension binaries are excluded. Git name and email remain in the Git configuration intentionally. Review future changes before publishing; `.gitignore` does not detect embedded secrets.
-
-Snapshot: 2026-10-30.
-
-Windows Terminal settings: `windows/terminal/settings.json` → `%LOCALAPPDATA%/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json`.
-
-The current snapshot does not include AI agent skills, Codex preferences, PowerShell, whkd, or winfetch.
