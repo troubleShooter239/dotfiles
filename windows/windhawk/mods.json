@@ -1,0 +1,73 @@
+{
+  "windows-11-taskbar-styler": {
+    "version": "1.10",
+    "latestVersion": "1.10"
+  },
+  "windows-11-start-menu-styler": {
+    "version": "1.7",
+    "latestVersion": "1.7"
+  },
+  "windows-11-notification-center-styler": {
+    "version": "1.8",
+    "latestVersion": "1.8"
+  },
+  "windows-11-file-explorer-styler": {
+    "version": "1.7.2",
+    "latestVersion": "1.7.2"
+  },
+  "taskbar-dock-animation": {
+    "version": "1.9.2",
+    "latestVersion": "1.9.2"
+  },
+  "explorer-details-better-file-sizes": {
+    "version": "1.6",
+    "latestVersion": "1.6"
+  },
+  "taskbar-clock-customization": {
+    "version": "1.8.1",
+    "disabled": true,
+    "latestVersion": "1.8.1"
+  },
+  "f1-blocker": {
+    "version": "0.0.3",
+    "latestVersion": "0.0.3"
+  },
+  "extension-change-no-warning": {
+    "version": "1.0.1",
+    "latestVersion": "1.0.1"
+  },
+  "no-focus-rectangle": {
+    "version": "1.0.2",
+    "latestVersion": "1.0.2"
+  },
+  "alt-tab-delayer": {
+    "version": "1.2.0",
+    "latestVersion": "1.2.0"
+  },
+  "taskbar-auto-hide-when-maximized": {
+    "version": "1.2.6",
+    "disabled": true,
+    "latestVersion": "1.2.6"
+  },
+  "windows-11-settings-styler": {
+    "version": "1.2.1",
+    "latestVersion": "1.2.1"
+  },
+  "dynamic-island-for-windows": {
+    "version": "1.4.0",
+    "disabled": true,
+    "latestVersion": "1.4.0"
+  },
+  "taskbar-volume-control-per-app": {
+    "version": "1.1.4",
+    "latestVersion": "1.1.4"
+  },
+  "shadowplay-do-not-disable": {
+    "version": "1.1",
+    "latestVersion": "1.1"
+  },
+  "desktop-marquee-fade": {
+    "version": "1.0.0",
+    "latestVersion": "1.0.0"
+  }
+}
