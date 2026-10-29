@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "Roblox_Studio": {
+      "transport": "stdio",
+      "command": "cmd.exe",
+      "args": ["/c", "cd /d %LOCALAPPDATA%\\Roblox && .\\mcp.bat"]
+    }
+  }
+}

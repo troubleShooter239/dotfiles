@@ -1,0 +1,28 @@
+[
+  {
+    "location": "builtin/agents",
+    "name": "Agents",
+    "useDefaultFlags": {
+      "settings": true,
+      "keybindings": true,
+      "prompts": true,
+      "mcp": true,
+      "languageModels": true,
+      "snippets": true,
+      "tasks": true,
+      "extensions": true
+    }
+  },
+  {
+    "location": "-150e4a54",
+    "name": "Front-End"
+  },
+  {
+    "location": "-68751bf5",
+    "name": "Python"
+  },
+  {
+    "location": "649ff755",
+    "name": "Games & Scripts"
+  }
+]

@@ -1,0 +1,7 @@
+[user]
+	name = troubleShooter239
+	email = morgun.nikita@outlook.com
+[core]
+	editor = zed --wait
+[sequence]
+	editor = zed --wait
