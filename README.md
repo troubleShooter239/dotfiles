@@ -4,11 +4,14 @@ My Windows editor, AI agent, Git, shell, and desktop configuration.
 
 | Directory          | Contents                                            | Original location              |
 | ------------------ | --------------------------------------------------- | ------------------------------ |
-| `zed/`             | Settings and agent instructions                     | `%APPDATA%/Zed`                |
+| `zed/`             | Settings, agent instructions, theme, extension IDs   | `%APPDATA%/Zed`                |
 | `vscode/`          | Settings, keybindings, MCP, snippets, extension IDs | `%APPDATA%/Code/User`          |
 | `vscode/profiles/` | Front-End, Python, and Games & Scripts profiles     | `%APPDATA%/Code/User/profiles` |
 | `git/`             | Git identity and editor preferences                 | `%USERPROFILE%/.gitconfig`     |
 | `windows/`         | YASB, Windows Terminal                              | `%USERPROFILE%/.config`        |
+| `windows/windhawk/` | Mod settings, styler themes, and mod versions        | `HKLM/SOFTWARE/Windhawk`       |
+| `windows/spotifast/` | Window configuration                               | `%APPDATA%/spotifast`          |
+| `windows/vencord/` | Plugin settings and Quick CSS                       | `%APPDATA%/Vencord`            |
 
 ## Restore
 

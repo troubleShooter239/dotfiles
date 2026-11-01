@@ -1,73 +1,78 @@
 {
-  "windows-11-taskbar-styler": {
-    "version": "1.10",
-    "latestVersion": "1.10"
+  "alt-tab-delayer": {
+    "latestVersion": "1.2.0",
+    "version": "1.2.0"
   },
-  "windows-11-start-menu-styler": {
-    "version": "1.7",
-    "latestVersion": "1.7"
+  "desktop-marquee-fade": {
+    "latestVersion": "1.0.0",
+    "version": "1.0.0"
+  },
+  "dynamic-island-for-windows": {
+    "latestVersion": "1.4.0",
+    "version": "1.4.0"
+  },
+  "explorer-command-bar": {
+    "latestVersion": "1.2.0",
+    "version": "1.2.0"
+  },
+  "explorer-details-better-file-sizes": {
+    "latestVersion": "1.6",
+    "version": "1.6"
+  },
+  "extension-change-no-warning": {
+    "latestVersion": "1.0.1",
+    "version": "1.0.1"
+  },
+  "f1-blocker": {
+    "latestVersion": "0.0.3",
+    "version": "0.0.3"
+  },
+  "no-focus-rectangle": {
+    "latestVersion": "1.0.2",
+    "version": "1.0.2"
+  },
+  "shadowplay-do-not-disable": {
+    "latestVersion": "1.1",
+    "version": "1.1"
+  },
+  "taskbar-auto-hide-speed": {
+    "latestVersion": "1.1",
+    "version": "1.1"
+  },
+  "taskbar-auto-hide-when-maximized": {
+    "latestVersion": "1.2.6",
+    "version": "1.2.6"
+  },
+  "taskbar-dock-animation": {
+    "latestVersion": "1.9.2",
+    "version": "1.9.2"
+  },
+  "taskbar-volume-control-per-app": {
+    "latestVersion": "1.1.4",
+    "version": "1.1.4"
+  },
+  "windows-11-file-explorer-styler": {
+    "latestVersion": "1.7.2",
+    "version": "1.7.2"
   },
   "windows-11-notification-center-styler": {
+    "latestVersion": "1.8",
+    "version": "1.8"
+  },
+  "windows-11-settings-styler": {
+    "latestVersion": "1.2.1",
+    "version": "1.2.1"
+  },
+  "windows-11-start-menu-styler": {
     "version": "1.8",
     "latestVersion": "1.8"
   },
-  "windows-11-file-explorer-styler": {
-    "version": "1.7.2",
-    "latestVersion": "1.7.2"
+  "windows-11-taskbar-styler": {
+    "latestVersion": "1.10",
+    "version": "1.10"
   },
-  "taskbar-dock-animation": {
-    "version": "1.9.2",
-    "latestVersion": "1.9.2"
-  },
-  "explorer-details-better-file-sizes": {
-    "version": "1.6",
-    "latestVersion": "1.6"
-  },
-  "taskbar-clock-customization": {
-    "version": "1.8.1",
-    "disabled": true,
-    "latestVersion": "1.8.1"
-  },
-  "f1-blocker": {
-    "version": "0.0.3",
-    "latestVersion": "0.0.3"
-  },
-  "extension-change-no-warning": {
-    "version": "1.0.1",
-    "latestVersion": "1.0.1"
-  },
-  "no-focus-rectangle": {
-    "version": "1.0.2",
-    "latestVersion": "1.0.2"
-  },
-  "alt-tab-delayer": {
-    "version": "1.2.0",
-    "latestVersion": "1.2.0"
-  },
-  "taskbar-auto-hide-when-maximized": {
-    "version": "1.2.6",
-    "disabled": true,
-    "latestVersion": "1.2.6"
-  },
-  "windows-11-settings-styler": {
-    "version": "1.2.1",
-    "latestVersion": "1.2.1"
-  },
-  "dynamic-island-for-windows": {
-    "version": "1.4.0",
-    "disabled": true,
-    "latestVersion": "1.4.0"
-  },
-  "taskbar-volume-control-per-app": {
-    "version": "1.1.4",
-    "latestVersion": "1.1.4"
-  },
-  "shadowplay-do-not-disable": {
-    "version": "1.1",
-    "latestVersion": "1.1"
-  },
-  "desktop-marquee-fade": {
-    "version": "1.0.0",
-    "latestVersion": "1.0.0"
+  "translucent-windows": {
+    "version": "1.8.2",
+    "latestVersion": "1.8.2"
   }
 }
