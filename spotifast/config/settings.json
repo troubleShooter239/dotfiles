@@ -18,216 +18,46 @@
       "filename": "Rose Pine Dawn.json",
       "palette": {
         "dark": false,
-        "window": [
-          250,
-          244,
-          237,
-          255
-        ],
-        "panel": [
-          255,
-          250,
-          243,
-          255
-        ],
-        "surface": [
-          242,
-          233,
-          225,
-          255
-        ],
-        "surface_hover": [
-          223,
-          218,
-          217,
-          255
-        ],
-        "surface_active": [
-          206,
-          202,
-          205,
-          255
-        ],
-        "outline": [
-          223,
-          218,
-          217,
-          255
-        ],
-        "text": [
-          87,
-          82,
-          121,
-          255
-        ],
-        "secondary": [
-          121,
-          117,
-          147,
-          255
-        ],
-        "dim": [
-          152,
-          147,
-          165,
-          255
-        ],
-        "accent": [
-          144,
-          122,
-          169,
-          255
-        ],
-        "accent_hover": [
-          87,
-          82,
-          121,
-          255
-        ],
-        "on_accent": [
-          250,
-          244,
-          237,
-          255
-        ],
-        "danger": [
-          180,
-          99,
-          122,
-          255
-        ],
-        "warning": [
-          234,
-          157,
-          52,
-          255
-        ],
-        "overlay": [
-          255,
-          250,
-          243,
-          255
-        ],
-        "shadow": [
-          0,
-          0,
-          0,
-          50
-        ],
-        "tint": [
-          0,
-          0,
-          0,
-          0
-        ]
+        "window": [250, 244, 237, 255],
+        "panel": [255, 250, 243, 255],
+        "surface": [242, 233, 225, 255],
+        "surface_hover": [223, 218, 217, 255],
+        "surface_active": [206, 202, 205, 255],
+        "outline": [223, 218, 217, 255],
+        "text": [87, 82, 121, 255],
+        "secondary": [121, 117, 147, 255],
+        "dim": [152, 147, 165, 255],
+        "accent": [144, 122, 169, 255],
+        "accent_hover": [87, 82, 121, 255],
+        "on_accent": [250, 244, 237, 255],
+        "danger": [180, 99, 122, 255],
+        "warning": [234, 157, 52, 255],
+        "overlay": [255, 250, 243, 255],
+        "shadow": [0, 0, 0, 50],
+        "tint": [0, 0, 0, 0]
       }
     },
     "dark": {
       "filename": "Catppuccin.json",
       "palette": {
         "dark": true,
-        "window": [
-          30,
-          30,
-          46,
-          255
-        ],
-        "panel": [
-          35,
-          36,
-          52,
-          255
-        ],
-        "surface": [
-          44,
-          45,
-          62,
-          255
-        ],
-        "surface_hover": [
-          51,
-          52,
-          70,
-          255
-        ],
-        "surface_active": [
-          62,
-          63,
-          82,
-          255
-        ],
-        "outline": [
-          65,
-          67,
-          86,
-          255
-        ],
-        "text": [
-          205,
-          214,
-          244,
-          255
-        ],
-        "secondary": [
-          153,
-          159,
-          185,
-          255
-        ],
-        "dim": [
-          118,
-          122,
-          145,
-          255
-        ],
-        "accent": [
-          137,
-          180,
-          250,
-          255
-        ],
-        "accent_hover": [
-          147,
-          185,
-          249,
-          255
-        ],
-        "on_accent": [
-          30,
-          30,
-          46,
-          255
-        ],
-        "danger": [
-          243,
-          139,
-          168,
-          255
-        ],
-        "warning": [
-          249,
-          226,
-          175,
-          255
-        ],
-        "overlay": [
-          44,
-          45,
-          62,
-          255
-        ],
-        "shadow": [
-          0,
-          0,
-          0,
-          140
-        ],
-        "tint": [
-          0,
-          0,
-          0,
-          0
-        ]
+        "window": [30, 30, 46, 255],
+        "panel": [35, 36, 52, 255],
+        "surface": [44, 45, 62, 255],
+        "surface_hover": [51, 52, 70, 255],
+        "surface_active": [62, 63, 82, 255],
+        "outline": [65, 67, 86, 255],
+        "text": [205, 214, 244, 255],
+        "secondary": [153, 159, 185, 255],
+        "dim": [118, 122, 145, 255],
+        "accent": [137, 180, 250, 255],
+        "accent_hover": [147, 185, 249, 255],
+        "on_accent": [30, 30, 46, 255],
+        "danger": [243, 139, 168, 255],
+        "warning": [249, 226, 175, 255],
+        "overlay": [44, 45, 62, 255],
+        "shadow": [0, 0, 0, 140],
+        "tint": [0, 0, 0, 0]
       }
     }
   },
@@ -264,7 +94,7 @@
   },
   "playback_authorized": true,
   "keep_playing_in_background": true,
-  "tray_icon": "black",
+  "tray_icon": "white",
   "mac_notch_widget": false,
   "mac_show_in_dock": true,
   "check_for_updates": true,
@@ -288,18 +118,7 @@
   "eq_open": false,
   "eq_on": false,
   "eq_preamp_db": 0.0,
-  "eq_bands_db": [
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0
-  ],
+  "eq_bands_db": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
   "eq_user_presets": [],
   "balance": 0.0,
   "mono": false,
@@ -312,8 +131,5 @@
   "milkdrop_screen_hz": 240,
   "milkdrop_scale": 1,
   "milkdrop_fullscreen": false,
-  "milkdrop_size": [
-    640.0,
-    480.0
-  ]
+  "milkdrop_size": [640.0, 480.0]
 }
