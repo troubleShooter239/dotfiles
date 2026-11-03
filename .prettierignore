@@ -1,0 +1,10 @@
+node_modules/
+.audit-tools/
+cursors/
+zed/themes/
+spotifast/config/themes/
+zed/AGENTS.md
+package-lock.json
+*.reg
+*.ps1
+LICENSE*

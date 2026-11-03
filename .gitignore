@@ -1,4 +1,9 @@
 .env
+.env.*
+!.env.example
+!.env.*.example
+*.local.*
+*.local
 *.pem
 *.key
 *.pfx
@@ -8,3 +13,30 @@
 *.log
 .DS_Store
 Thumbs.db
+
+# Tooling and generated output
+node_modules/
+.audit-tools/
+__pycache__/
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+*.bak
+*.tmp
+
+# Application state and agent credentials/history (keep curated instructions/skills)
+**/workspaceStorage/
+**/globalStorage/
+**/Session Storage/
+**/Local Storage/
+**/Cache/
+**/CachedData/
+**/GPUCache/
+**/state.vscdb*
+**/ConsoleHost_history.txt
+**/auth.json
+**/credentials.json
+**/sessions/
+**/history.jsonl
+**/secrets.toml

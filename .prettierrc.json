@@ -1,0 +1,12 @@
+{
+  "overrides": [
+    {
+      "files": [
+        "vscode/**/*.json",
+        "zed/settings.json",
+        "windows/terminal/settings.json"
+      ],
+      "options": { "parser": "jsonc", "trailingComma": "none" }
+    }
+  ]
+}

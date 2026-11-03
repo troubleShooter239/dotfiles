@@ -1,4 +1,13 @@
 [core]
+	autocrlf = input
 	editor = zed --wait
+	fscache = true
+	symlinks = true
+[credential]
+	helper = manager
+[init]
+	defaultBranch = main
+[pull]
+	ff = only
 [sequence]
 	editor = zed --wait

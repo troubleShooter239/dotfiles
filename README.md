@@ -1,31 +1,25 @@
 # dotfiles
 
-My Windows editor, AI agent, Git, shell, and desktop configuration.
+Editor, Git, music player, and Windows desktop configuration.
 
-| Directory          | Contents                                            | Original location              |
-| ------------------ | --------------------------------------------------- | ------------------------------ |
-| `zed/`             | Settings, agent instructions, theme, extension IDs   | `%APPDATA%/Zed`                |
-| `vscode/`          | Settings, keybindings, MCP, snippets, extension IDs | `%APPDATA%/Code/User`          |
-| `vscode/profiles/` | Front-End, Python, and Games & Scripts profiles     | `%APPDATA%/Code/User/profiles` |
-| `git/`             | Git identity and editor preferences                 | `%USERPROFILE%/.gitconfig`     |
-| `windows/`         | YASB, Windows Terminal                              | `%USERPROFILE%/.config`        |
-| `windows/windhawk/` | Mod settings, styler themes, and mod versions        | `HKLM/SOFTWARE/Windhawk`       |
-| `windows/spotifast/` | Window configuration                               | `%APPDATA%/spotifast`          |
-| `windows/vencord/` | Plugin settings and Quick CSS                       | `%APPDATA%/Vencord`            |
+## Windows, Linux, and macOS
 
-## Restore
+| Application | Configuration |
+| --- | --- |
+| [Git](git/README.md) | Editor, credential helper, line endings, and pull preferences |
+| [Spotifast](spotifast/README.md) | Playback, interface, and theme palettes |
+| [Vencord](vencord/README.md) | Discord plugin settings and Quick CSS |
+| [VS Code](vscode/README.md) | Settings, keybindings, extensions, MCP, and profiles |
+| [Zed](zed/README.md) | Settings, agent instructions, extensions, and theme |
 
-Back up existing configuration first, then copy the desired files to their original locations. Close the corresponding application before replacing its settings. JSON files may use JSON with comments and trailing commas; preserve their original format.
+## Windows
 
-Install VS Code extensions from PowerShell:
+| Application / assets | Configuration |
+| --- | --- |
+| [PowerShell 7](windows/powershell/README.md) | Windows shell profile |
+| [Windows Terminal](windows/terminal/README.md) | Terminal appearance and profiles |
+| [Windhawk](windows/windhawk/README.md) | Registry settings and mod inventory |
+| [YASB](windows/yasb/README.md) | Status bar widgets and styles |
+| [Cursors](cursors/README.md) | Future, Hatsune Miku, and Oxygen cursor packs |
 
-```powershell
-Get-Content ./vscode/extensions.txt | ForEach-Object { code --install-extension $_ }
-# Example for a named profile:
-Get-Content ./vscode/profiles/-68751bf5/extensions.txt |
-    ForEach-Object { code --profile Python --install-extension $_ }
-```
-
-`vscode/profiles/profiles.json` maps profile directory IDs to names; it is an inventory, not a file to copy over VS Code's storage database. Create profiles in VS Code and copy their settings to the new profile locations.
-
-Editor settings reference JetBrainsMono NF and the selected themes/extensions. Desktop settings may need local path, monitor, and application adjustments on another machine.
+Each application README explains where to copy its files and what differs between operating systems. Install the application first, back up existing settings, and close it before replacing files. Copy only the configuration files listed in its README. Fonts, extensions, mods, and account sign-in are installed or configured separately.

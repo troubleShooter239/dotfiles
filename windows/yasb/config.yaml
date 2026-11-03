@@ -12,7 +12,7 @@ bars:
   primary-bar:
     enabled: true
     screens:
-      - '*'
+      - "*"
     class_name: yasb-bar
     alignment:
       position: top
@@ -71,8 +71,6 @@ widgets:
       show_battery: false
       show_in_popup: 1
       show_volume: false
-      show_network: true
-      use_hook: true
       icons_per_row: 3
       show_network: false
       use_hook: false # Whether to use the new systray hook instead of the legacy systray monitor
@@ -87,21 +85,21 @@ widgets:
         offset_top: 6
         offset_left: 0
   language:
-    type: 'yasb.language.LanguageWidget'
+    type: "yasb.language.LanguageWidget"
     options:
-      label: '{lang[language_code]}'
-      label_alt: '{lang[full_name]}'
+      label: "{lang[language_code]}"
+      label_alt: "{lang[full_name]}"
       update_interval: 1
       callbacks:
-        on_left: 'toggle_menu'
-        on_right: 'toggle_label'
+        on_left: "toggle_menu"
+        on_right: "toggle_label"
       language_menu:
         blur: false
         round_corners: true
-        round_corners_type: 'normal'
-        border_color: 'system'
-        alignment: 'right'
-        direction: 'down'
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "right"
+        direction: "down"
         offset_top: 6
         offset_left: 0
         show_layout_icon: true
@@ -120,14 +118,14 @@ widgets:
         on_middle: "empty_bin"
       show_confirmation: false
   media:
-    type: 'yasb.media.MediaWidget'
+    type: "yasb.media.MediaWidget"
     options:
-      label: '{title}{s}{artist}'
-      label_alt: '{title}{s}{artist}'
-      separator: ' - '
+      label: "{title}{s}{artist}"
+      label_alt: "{title}{s}{artist}"
+      separator: " - "
       hide_empty: true
       callbacks:
-        on_left: 'toggle_media_menu'
+        on_left: "toggle_media_menu"
       max_field_size:
         label: 45
         label_alt: 30
@@ -146,10 +144,10 @@ widgets:
       media_menu:
         blur: false
         round_corners: true
-        round_corners_type: 'normal'
-        border_color: 'system'
-        alignment: 'right'
-        direction: 'down'
+        round_corners_type: "normal"
+        border_color: "system"
+        alignment: "right"
+        direction: "down"
         offset_top: 6
         offset_left: 0
         thumbnail_corner_radius: 8
@@ -165,8 +163,8 @@ widgets:
       scrolling_label:
         enabled: false
         update_interval_ms: 33
-        style: 'left' # can be "left", "right", "bounce", "bounce-ease"
-        separator: ' | '
+        style: "left" # can be "left", "right", "bounce", "bounce-ease"
+        separator: " | "
         label_padding: 0
         always_scroll: false
         # Easing curve params: https://www.desmos.com/calculator/j7eamemxzi
@@ -175,9 +173,9 @@ widgets:
         ease_min: 0.5
       progress_bar:
         enabled: false # Whether to enable the progress bar on the widget.
-        alignment: 'bottom' # The alignment of the progress bar inside the widget container. Can be "top", "bottom", or "center".
+        alignment: "bottom" # The alignment of the progress bar inside the widget container. Can be "top", "bottom", or "center".
   taskbar:
-    type: 'yasb.taskbar.TaskbarWidget'
+    type: "yasb.taskbar.TaskbarWidget"
     options:
       icon_size: 16
       tooltip: false
@@ -195,7 +193,7 @@ widgets:
         margin: 8
       title_label:
         enabled: true
-        show: 'focused'
+        show: "focused"
         min_length: 10
         max_length: 30
       ignore_apps:
@@ -208,7 +206,7 @@ widgets:
       label: "<span>\uE8A9</span>"
       menu_list:
         - title: User Home
-          path: '~'
+          path: "~"
         - title: Download
           path: ~\Downloads
         - title: Documents
@@ -226,8 +224,8 @@ widgets:
   clock:
     type: yasb.clock.ClockWidget
     options:
-      label: '{%a, %d %b %H:%M}<span>{alarm}</span>'
-      label_alt: '{%a, %d %b %H:%M}'
+      label: "{%a, %d %b %H:%M}<span>{alarm}</span>"
+      label_alt: "{%a, %d %b %H:%M}"
       timezones: []
       calendar:
         blur: false
@@ -248,9 +246,9 @@ widgets:
       tooltip: true
       icons:
         muted: "\ueee8"
-        '20': "\uf026"
-        '60': "\uf027"
-        '100': "\uf028"
+        "20": "\uf026"
+        "60": "\uf027"
+        "100": "\uf028"
       callbacks:
         on_left: toggle_volume_menu
         on_right: toggle_mute
@@ -272,7 +270,7 @@ widgets:
     type: yasb.notifications.NotificationsWidget
     options:
       label: "<span>\uF2A5</span>"
-      label_alt: '{count} notifications'
+      label_alt: "{count} notifications"
       hide_empty: true
       tooltip: false
       callbacks:
@@ -305,23 +303,23 @@ widgets:
           - "\uDB82\uDD06"
           - Shut Down
         cancel:
-          - ''
+          - ""
           - Cancel
   komorebi_workspaces:
-    type: 'komorebi.workspaces.WorkspaceWidget'
+    type: "komorebi.workspaces.WorkspaceWidget"
     options:
-      label_offline: 'Komorebi Offline'
-      label_workspace_btn: '{index}'
-      label_workspace_active_btn: '{index}'
-      label_workspace_populated_btn: '{index}'
-      label_default_name: ''
+      label_offline: "Komorebi Offline"
+      label_workspace_btn: "{index}"
+      label_workspace_active_btn: "{index}"
+      label_workspace_populated_btn: "{index}"
+      label_default_name: ""
       label_zero_index: false
       hide_empty_workspaces: true
       hide_if_offline: false
       toggle_workspace_layer:
         enabled: false
-        tiling_label: 'Tiling'
-        floating_label: 'Floating'
+        tiling_label: "Tiling"
+        floating_label: "Floating"
       app_icons:
         enabled_populated: false
         enabled_active: false
@@ -331,20 +329,20 @@ widgets:
         hide_duplicates: false
         hide_floating: false
   komorebi_active_layout:
-    type: 'komorebi.active_layout.ActiveLayoutWidget'
+    type: "komorebi.active_layout.ActiveLayoutWidget"
     options:
       hide_if_offline: true
-      label: '{icon}'
+      label: "{icon}"
       layouts:
         [
-          'bsp',
-          'columns',
-          'rows',
-          'grid',
-          'vertical_stack',
-          'horizontal_stack',
-          'ultrawide_vertical_stack',
-          'right_main_vertical_stack',
+          "bsp",
+          "columns",
+          "rows",
+          "grid",
+          "vertical_stack",
+          "horizontal_stack",
+          "ultrawide_vertical_stack",
+          "right_main_vertical_stack",
         ]
       layout_icons:
         bsp: "\uebeb"
@@ -362,16 +360,16 @@ widgets:
         paused: "\udb83\udf89"
         tiling: "\udb81\ude40"
       callbacks:
-        on_left: 'toggle_layout_menu'
-        on_middle: 'next_layout'
-        on_right: 'prev_layout'
+        on_left: "toggle_layout_menu"
+        on_middle: "next_layout"
+        on_right: "prev_layout"
       layout_menu:
         blur: false
         round_corners: true
-        round_corners_type: 'normal'
-        border_color: 'System'
-        alignment: 'left'
-        direction: 'down'
+        round_corners_type: "normal"
+        border_color: "System"
+        alignment: "left"
+        direction: "down"
         offset_top: 6
         offset_left: 0
         show_layout_icons: true
@@ -379,7 +377,7 @@ widgets:
     type: yasb.cpu.CpuWidget
     options:
       label: "<span>\uf4bc</span> {info[percent][total]}%"
-      label_alt: '{info[freq][current]} MHz'
+      label_alt: "{info[freq][current]} MHz"
       update_interval: 3000
       hide_decimal: true
       menu:
@@ -410,7 +408,7 @@ widgets:
   quick_launch:
     type: yasb.quick_launch.QuickLaunchWidget
     options:
-      label: "<span>\uf002</span>"      
+      label: "<span>\uf002</span>"
       search_placeholder: Search applications...
       max_results: 30
       show_icons: true
@@ -419,7 +417,7 @@ widgets:
       providers:
         apps:
           enabled: true
-          prefix: '*'
+          prefix: "*"
           priority: 0
           show_recent: true
           max_recent: 5
@@ -442,7 +440,7 @@ widgets:
     type: yasb.open_meteo.OpenMeteoWidget
     options:
       label: "<span>\ue30d</span>{temp}"
-      label_alt: '{location}: Min {min_temp}, Max {max_temp}, Humidity {humidity}'
+      label_alt: "{location}: Min {min_temp}, Max {max_temp}, Humidity {humidity}"
       tooltip: true
       update_interval: 7200
       hide_decimal: true
@@ -464,7 +462,7 @@ widgets:
         hourly_icon_size: 16
         icon_smoothing: true
         temp_line_width: 2
-        current_line_color: '#8EAEE8'
+        current_line_color: "#8EAEE8"
         current_line_width: 1
         current_line_style: dot
         hourly_forecast_buttons:

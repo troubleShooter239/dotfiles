@@ -53,15 +53,10 @@
   },
   "cursor_blink": true,
   "buffer_font_family": "JetBrainsMono NF",
-  "file_scan_exclusions": [
-    "**/__pycache__",
-    "..."
-  ],
+  "file_scan_exclusions": ["**/__pycache__", "..."],
   "auto_indent_on_paste": true,
   "format_on_save": "off",
-  "wrap_guides": [
-    120
-  ],
+  "wrap_guides": [120],
   "agent_servers": {
     "codex-acp": {
       "type": "registry"
@@ -73,6 +68,6 @@
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Catppuccin Macchiato (Blur) [Light]",
-  },
+    "dark": "Catppuccin Macchiato (Blur) [Light]"
+  }
 }

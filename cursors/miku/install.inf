@@ -1,0 +1,46 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 25,Cursors
+
+[Scheme.Cur]
+14-alternate-select_32-48-64.ani
+15-link-select_32-48-64.ani
+13-move_32-48-64.ani
+12-diagonal-resize-2_32-48-64.ani
+11-diagonal-resize-1_32-48-64.ani
+10-horizontal-resize_32-48-64.ani
+09-vertical-resize_32-48-64.ani
+08-unavailable_32-48-64.ani
+07-handwriting_32-48-64.ani
+06-text-select_32-48-64.ani
+05-precision-select_32-48-64.ani
+04-busy_32-48-64.ani
+03-working-in-background_32-48-64.ani
+02-help-select_32-48-64.ani
+01-normal-select_32-48-64.ani
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors","UpArrow",,"%25%\Cursors\14-alternate-select_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Hand",,"%25%\Cursors\15-link-select_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeAll",,"%25%\Cursors\13-move_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeNESW",,"%25%\Cursors\12-diagonal-resize-2_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeNWSE",,"%25%\Cursors\11-diagonal-resize-1_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeWE",,"%25%\Cursors\10-horizontal-resize_32-48-64.ani"
+HKCU,"Control Panel\Cursors","SizeNS",,"%25%\Cursors\09-vertical-resize_32-48-64.ani"
+HKCU,"Control Panel\Cursors","No",,"%25%\Cursors\08-unavailable_32-48-64.ani"
+HKCU,"Control Panel\Cursors","NWPen",,"%25%\Cursors\07-handwriting_32-48-64.ani"
+HKCU,"Control Panel\Cursors","IBeam",,"%25%\Cursors\06-text-select_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Cross",,"%25%\Cursors\05-precision-select_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Wait",,"%25%\Cursors\04-busy_32-48-64.ani"
+HKCU,"Control Panel\Cursors","AppStarting",,"%25%\Cursors\03-working-in-background_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Help",,"%25%\Cursors\02-help-select_32-48-64.ani"
+HKCU,"Control Panel\Cursors","Arrow",,"%25%\Cursors\01-normal-select_32-48-64.ani"
+; Set scheme name
+HKCU,"Control Panel\Cursors","(Default)",,"Hatsune Miku Set"
+HKCU,"Control Panel\Cursors\Schemes","Hatsune Miku Set",,""
